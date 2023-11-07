@@ -1,5 +1,4 @@
-1. Unzip the file on desktop.
-2. Now copy project folder and paste it into xampp/htdocs/.
+2. Copy these folders and paste it into a new folder "project" that present in xampp/htdocs/.
 3. Open XAMPP Control Panel, and Start Apache and MySQL.
 4. Click on Admin button on right side of MySQL or go to browser and type localhost/phpmyadmin/.
 5. Create a new database with name online-voting-system.
