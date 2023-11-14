@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online voting system - Home</title>
+   <link rel="stylesheet" href="css/stylesheet.css">
+   <style>
+    body{
+        background-image: url('bg5.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    h1{
+        font-size: 200%;
+    
+    }
+   ::placeholder{
+    color: black;
+   }
+   </style>
+    </head>
+    <body>
+        
+            <center>
+            <div id="headerSection">
+            <h1><b>ONLINE VOTING WEBSITE</b></h1>  
+            </div>
+            <hr>
+            <br>
+            <div id="loginSection">
+                
+                <h1>LOGIN</h1><br>
+                <form action="api/login.php" method="POST">
+                    <input style="width: 13%" type="text" name="name" placeholder="Enter Username" required><br><br>
+                    <input style="width: 13%" type="password" name="pass" placeholder="Enter Password" required><br><br>
+                    <select name="role" style="width: 15%; border: 2px solid black">
+                        <option value="1">Voter</option>
+                        <option value="2">Candidate</option>
+                    </select><br><br>                  
+                    <button class="gradient-button gradient-button-1" type="submit" name="loginbtn"><b>Login</b></button><br><br>
+                   <b> Sign Up?</b> <a href="routes/register.php"><b>Click here to Register</b></a>
+                </form>
+            
+            </div>
+
+            </center> 
+    </body>
+</html>
